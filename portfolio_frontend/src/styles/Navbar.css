@@ -1,0 +1,84 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  /* border-bottom: 2px solid rgb(12, 192, 132); */
+  border-bottom: 2px solid #00ffc3;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  align-items: center;
+}
+
+.portfolio{
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo{
+  text-decoration: none;
+  font-size: 25px; 
+  color:  #00ffc3;;
+  margin-right: 2rem;
+}
+
+.resume{
+  color: #00ffc3;
+  font-size:25px;
+}
+
+.navbar a{
+  margin-left:3rem;
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.navbar a:hover, a.active {
+  color: #00ffc3;
+} 
+
+#menu-bar{
+  font-size: 25px;
+  color: white;
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .navbar a{
+    margin-left: 1.7rem;
+  }
+}
+
+@media (max-width: 910px) {
+  #menu-bar{
+    display: block;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: .5rem 4%;
+    background: rgba(255, 255, 255, 0.05);
+    display: none;
+  }
+
+  .navbar.active{
+    display: block;
+  }
+
+  .navbar a{
+    display: block;
+    margin: 1.5rem 1rem;
+  }
+}
