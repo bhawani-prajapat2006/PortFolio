@@ -16,7 +16,7 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      await axios.post("http://portfolio-backend-yjml.onrender.com", formData);
+      await axios.post("https://portfolio-backend-yjml.onrender.com/api/send", formData);
       alert("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
