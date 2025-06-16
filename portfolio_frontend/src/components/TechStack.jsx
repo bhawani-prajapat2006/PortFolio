@@ -21,13 +21,10 @@ export default function TechStack() {
     { name: "Material UI", src: "/assets/Material UI.png" },
     { name: "MySQL", src: "/assets/MySQL.png" },
     { name: "Postman", src: "/assets/Postman.png" },
-    { name: "HTML5", src: "/assets/HTML5.png" },
-    { name: "CSS3", src: "/assets/CSS3.png" },
     { name: "JavaScript", src: "/assets/JavaScript.png" },
-    { name: "Node.js", src: "/assets/Node.js.png" },
     { name: "C++", src: "/assets/cpp.png" },
     { name: "C", src: "/assets/C.png" },
-    // { name: "Python", src: "/assets/Python.png" },
+    { name: "Python", src: "/assets/Python.png" },
     // Add more if needed
   ];
 
@@ -99,7 +96,7 @@ export default function TechStack() {
               />
               <span
                 style={{ color: "#00cfff" }}
-                className="text-lg text-gray-400"
+                className="tech-card-text"
               >
                 {tech.name}
               </span>
@@ -164,14 +161,14 @@ export default function TechStack() {
               src="https://github-readme-stats.vercel.app/api?username=bhawani-prajapat2006&show_icons=true&theme=radical&bg_color=00000000&hide_border=true
 "
               alt="GitHub Stats"
-              className="mx-auto"
+              // className="mx-auto"
             />
 
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhawani-prajapat2006&layout=compact&theme=radical&bg_color=00000000&hide_border=true
 "
               alt="Top Languages"
-              className="mx-auto"
+              // className="mx-auto"
             />
           </div>
         </div>

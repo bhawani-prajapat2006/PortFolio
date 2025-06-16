@@ -24,7 +24,7 @@ export default function Projects() {
     <section id="projects">
       <h1 className="text-center mb-3">Projects 💼</h1>
       <h5 style={{ color: "#9CA3AF" }} className="text-center">
-        Here's my education and qualifications
+        Below are some of the projects I have worked on, showcasing my skills in web development
       </h5>
       <div className="proj-card">
         {repos.map((repo) => (

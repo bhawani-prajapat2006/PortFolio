@@ -1,0 +1,31 @@
+# Root-level ignore rules
+.DS_Store
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node modules and build outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Ignore .env files everywhere
+**/.env
+
+# Allow .env.example files (they help show expected environment variables)
+!**/.env.example
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea/

@@ -22,16 +22,10 @@ export default function Home() {
               share my work, skills, and passions.
             </h5>
           </div>
-          <div>
+          <div className="home-btns">
             <a
               type="button"
               href="#contact"
-              style={{
-                backgroundColor: " #00cfff21",
-                color: "#00cfff",
-                border: "2px solid #00cfff",
-                fontSize: "1.2rem",
-              }}
               class="btn btn-primary mx-3 w-45 py-2 rounded-3"
             >
               Let's Connect
@@ -40,12 +34,6 @@ export default function Home() {
               href="bhawani_resume.pdf"
               download="Resume.pdf"
               type="button"
-              style={{
-                backgroundColor: " #00cfff21",
-                color: "#00cfff",
-                border: "2px solid #00cfff",
-                fontSize: "1.2rem",
-              }}
               class="btn btn-primary w-45 mx-3 py-2 rounded-3"
             >
               Resume &nbsp;<i class="fa-solid fa-file"></i>
