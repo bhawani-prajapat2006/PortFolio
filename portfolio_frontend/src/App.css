@@ -254,7 +254,7 @@ section {
 
 /* Home styling */
 .home-card {
-  padding: 24px 120px;
+  padding: 24px 120px 0px;
   text-align: center;
   color: #9ca3af;
   width: 100%;
@@ -281,6 +281,12 @@ section {
   color: #00cfff;
   border: 2px solid #00cfff;
   font-size: 20px;
+}
+
+.home-btns a:hover{
+  background-color: #00cfff21;
+  border: 2px solid #00cfff;
+   color: #00cfff;
 }
 
 /* media query for home */
