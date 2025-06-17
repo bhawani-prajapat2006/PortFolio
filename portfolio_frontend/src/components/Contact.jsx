@@ -103,7 +103,7 @@ export default function Contact() {
                   border: "none",
                   fontSize: "1.2rem",
                 }}
-                class="btn btn-primary w-full py-2 rounded-3"
+                class="btn w-full py-2 rounded-3"
               >
                 Send Message &nbsp; <i class="fa-solid fa-paper-plane"></i>
               </button>

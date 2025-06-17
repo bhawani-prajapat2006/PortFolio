@@ -186,7 +186,7 @@ export default function TechStack() {
             border: "2px solid #00ffc3",
             fontSize: "1.2rem",
           }}
-          class="btn btn-primary mx-3 w-45 py-2 rounded-3"
+          class="btn mx-3 w-45 py-2 rounded-3"
         >
           <i className="fa-brands fa-github"></i> &nbsp;Github Profile
         </a>
@@ -201,7 +201,7 @@ export default function TechStack() {
             border: "2px solid #00cfff",
             fontSize: "1.2rem",
           }}
-          class="btn btn-primary mx-3 w-45 py-2 rounded-3"
+          class="btn mx-3 w-45 py-2 rounded-3"
         >
           <i className="fa-brands fa-linkedin-in"></i> &nbsp;LinkedIn
         </a>

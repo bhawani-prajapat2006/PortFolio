@@ -5,7 +5,7 @@ section {
   /* align-items: center; */
   color: #e0e0e0;
   /* font-size: 100px; */
-  padding: 5rem 0;
+  padding: 70px 0;
 }
 
 .footer {
@@ -276,17 +276,17 @@ section {
   font-size: 4rem;
 }
 
-.home-btns a {
-  background-color: #00cfff21;
-  color: #00cfff;
-  border: 2px solid #00cfff;
+.btn-primary {
+  background-color: #00cfff21 !important;
+  border: 2px solid #00cfff !important;
+  color: #00cfff !important;
   font-size: 20px;
 }
 
-.home-btns a:hover{
-  background-color: #00cfff21;
-  border: 2px solid #00cfff;
-   color: #00cfff;
+.home-btns a:active{
+  background-color: #00cfff !important;
+  color: #0d48b4 !important;
+  border: none !important;
 }
 
 /* media query for home */
@@ -314,13 +314,13 @@ section {
 
 @media (max-width: 1250px) {
   .home-card {
-    padding: 24px 40px;
+    padding: 24px 40px 0;
   }
 }
 
 @media (max-width: 910px) {
   .home-card {
-    padding: 24px 0;
+    padding: 24px 0 0;
   }
 }
 
@@ -351,7 +351,7 @@ section {
 
 /* Educationn page styling */
 .edu-card {
-  padding: 12px 0;
+  padding: 12px 0 0;
   color: #e0e0e0;
   width: 100%;
 }
